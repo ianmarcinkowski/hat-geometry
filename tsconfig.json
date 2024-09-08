@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "allowJs": true, // Allow JavaScript files to be compiled
+        "sourceMap": true,
+        "module": "commonjs",
+        "baseUrl": ".",
+        "jsx": "react-jsx",
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "*.ts",
+        "./jest-setup.ts"
+    ],
+    "exclude": [
+        "**/build/**",
+        "**/dist/**"
+    ]
+}

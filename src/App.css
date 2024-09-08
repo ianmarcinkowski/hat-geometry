@@ -1,0 +1,54 @@
+html {
+  background-color: #fefefe;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App__header {
+  height: 20vh;
+  border-bottom: 1px solid #ddd;
+}
+
+.App__body {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.App__controls, .App__canvas {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.App__controls {
+  width: 20vw;
+  border-right: 1px solid #ddd;
+}
+
+.App__canvas {
+  width: 80vw;
+}
+
+.App__link {
+  color: #61dafb;
+}
+
+textarea {
+  width: 40vh;
+  height: 20vh;
+}

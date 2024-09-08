@@ -1,2 +1,1 @@
-# hat-geometry
-Hat geometry calculator
+# Hat Geometry Visualizer
